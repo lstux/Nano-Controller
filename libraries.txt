@@ -1,0 +1,4 @@
+U8g2
+RF24
+IRLib2		https://github.com/cyborg5/IRLib2.git		{ [ -d ${libdir}/IRLib2-git ] || mv ${libdir}/IRLib2 ${libdir}/IRLib2-git; } && for l in IRLib2 IRLibFreq IRLibProtocols IRLibRecv IRLibRecvPCI; do [ -L ${libdir}/\${l} ] || ln -s ${libdir}/IRLib2-git/\${l} ${libdir}/\${l}; done
+MemoryFree	https://github.com/McNeight/MemoryFree.git
